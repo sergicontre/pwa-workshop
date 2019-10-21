@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+header {
+    background-color: #f5f064;
+    background-size: auto;
+    background-position: center right 1em;
+    background-repeat: no-repeat;
+    color: rgb(0, 0, 0);
+    font-size: 1.4rem;
+}
+
+header,
+section,
+footer {
+    padding: 0.5em 1em;
+}
+
+section {
+    max-width: 1280px;
+    margin: auto;
+}
+
+aside {
+    float: right;
+    background-color: #f6f6f0;
+    padding: 0.5em 1em;
+    margin: 0.5em;
+}
+
+a {
+    cursor: pointer;
+    color: rgb(129, 51, 255);
+}
+
+a:hover {
+    text-decoration: underline;
+    text-shadow: 0 1px 1px rgba(129, 51, 255, 0.4);
+}
+
+.card {
+    display: inline-block;
+    padding: 0.5em;
+    margin: 0.25em 0.5em;
+    background-color: #f6f6f0;
+    box-shadow: 5px 5px 10px #999;
+}
+
+button {
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.actions {
+    margin: 1em;
+    text-align: center;
+}
+
+footer {
+    display: block;
+    margin: 1em 0 0 0;
+    background-color: #333;
+    color: #eee;
+}
+
+footer a {
+    color: #fff;
+}
+
+.license {
+    font-size: 1rem;
+}
+
+.license img {
+    vertical-align: middle;
+    margin-right: 0.5em;
+}
+
+#setup_button {
+    display: none;
+}
+
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #8a2a21;
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:18px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myInstallButton {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:6px;
+	border:1px solid #74b807;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #528009;
+    display: none;
+}
+.myInstallButton:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.myInstallButton:active {
+	position:relative;
+	top:1px;
+}
